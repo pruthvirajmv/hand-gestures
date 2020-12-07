@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #f87171;
+  background: white;
+  width: 70%;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+body {
+  display: block;
+  background: url("/gestures.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
