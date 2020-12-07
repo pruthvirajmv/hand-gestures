@@ -68,16 +68,21 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>hand-gestures</h1>
+      <h1> hand-gestures </h1>
       <p> Enter a hand gesture to see its meaning </p>
 
       <input
         onChange={emojiTranslateHandler}
         placeholder="Enter here"
-        style={{ minWidth: "11rem", height: "4vh" }}
+        style={{ maxWidth: "5rem", height: "4vh" }}
       />
 
-      <div style={{ padding: "1rem" }}> {emojiOut} </div>
+      <div
+        style={{ paddingTop: "1.2rem", color: "orange", fontSize: "1.8rem" }}
+      >
+        {" "}
+        {emojiOut}{" "}
+      </div>
 
       <h5> Click below emojis to see its meaning </h5>
 
@@ -100,7 +105,7 @@ export default function App() {
         })}
       </ul>
 
-      <p style={{ paddingTop: "2rem" }}>
+      <p style={{ paddingTop: "0.5rem" }}>
         Tip: Use windows key + ';' / windows key + '.' to enter emojis
       </p>
 

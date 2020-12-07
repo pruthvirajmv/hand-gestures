@@ -1,15 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
 .App {
-  font-family: sans-serif;
+  font-family: "Indie Flower", cursive;
   text-align: center;
   color: #f87171;
   background: white;
   width: 70%;
   margin: auto;
   border-radius: 1rem;
+  font-weight: bolder;
 }
 
 body {
-  display: block;
   background: url("/gestures.png");
   background-repeat: no-repeat;
   background-position: center;
